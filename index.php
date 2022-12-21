@@ -48,8 +48,8 @@
                 </div>
                 <p>Je crée le site web qui vous correspond et m'occupe de son suivi. Passionné et très investi, j’ai le plaisir de vous proposer mes services : création du site internet, design, référencement, rédaction web, webmarketing, ...</p>
                 <div class="d-flex justify-content-center">
-                    <a href="#" id="about" class="jumbotron-btn">Qui suis-je ?</a>&emsp;
-                    <a href="#" id="projects" class="jumbotron-btn btn2">Mes projets</a>
+                    <a href="#" id="about" class="jumbotron-btn scroll">Qui suis-je ?</a>&emsp;
+                    <a href="#" id="projects" class="jumbotron-btn btn2 scroll">Mes projets</a>
                 </div>
             </div>
         </section>
@@ -57,9 +57,19 @@
             <div class="container">
                 <div class="col-12 text-light">
                     <h2 class="text-center">Faisons connaissance</h2>
+                    <hr class="hr mb-5" style="height:0.3125rem">
+                    <div class="d-flex align-items-center">
+                        <div class="col-2"><i class="fa-solid fa-code"></i></div>
+                        <div class="col-10 px-4">
+                            <p>Hello ! Je m’appelle <b>Kevin Arigoni</b>, <b>développeur full stack</b> en recherche d'emploi, <b>créatif</b> et <b>passionné</b>. Je me suis lancé à 100% dans ce domaine en me documentant sur tous les thèmes possibles, en engrangeant de l’expérience durant mes études, dans mes différentes expériences professionnelles ainsi que durant mon expérience d’<b>entrepreneur</b>.</p>
+                            <p><b>100% autonome</b>, <b>à l'écoute</b> et <b>force de proposition</b>, je suis prêt à m'investir pleinement dans votre projet et à m'adapter à vos besoins. Je vous apporte mon expertise pour : la <b>prospection commerciale</b>, l'<b>intégration de maquettes</b>, la <b>création de tous types de projets web</b> : aussi bien un site vitrine, site wordpress, e-commerce ou sur mesure..., mais aussi le <b>rafraîchissement et l'optimisation du référencement SEO</b> d'un site existant.</p>
+                            <p><u><b>Mes hobbies :</b></u> l'informatique et les nouvelles techniques (réalité virtuelle/augmentée, l'impression 3 D, ....), les échecs et le karaté dont je suis ceinture marron 2ème DAN. J'ai réalisé plusieurs compétitions de karaté.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <section></section>
     </main>
     <!-- FIN -->
 
@@ -71,6 +81,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="public/js/index.js"></script>
-    <script src="public/js/jumbotron.js"></script>
 </body>
 </html>
