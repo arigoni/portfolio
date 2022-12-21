@@ -4,3 +4,20 @@
     font-weight: $weight;
     line-height: $height;
 }
+
+// hr
+@mixin dot {
+    $dot-size: 15px;
+    content: "";
+    background-color: $color_tertiary;
+    display: block;
+    height: $dot-size;
+    width: $dot-size;
+    border-radius: 50%;
+}
+
+// Flex
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}

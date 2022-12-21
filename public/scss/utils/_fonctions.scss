@@ -1,0 +1,16 @@
+@keyframes dot-move-right {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 32px;
+    }
+}
+@keyframes dot-move-left {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -32px;
+    }
+}

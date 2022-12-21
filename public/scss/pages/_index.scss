@@ -6,11 +6,46 @@
     background-size: cover;
     padding-top: 9rem;
     padding-bottom: 8rem;
-    h1 {
-        @include font(2rem, 600, 2.5rem);
-        color: rgba(255, 255, 255, 0.5);
+    &_info {
+        @include font(1.5rem, 400, 2.5rem);
+        width: 56%;
+        margin-left: 12rem;
+        background-color: $bgFirst;
+        border-radius: 5rem;
+        .separator {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            opacity: 1;
+        }
+        .separator--dots {
+            overflow: visible;
+            border: 0;
+            @include dot();
+            position: relative;
+            &:before {
+               @include dot();
+               position: absolute;
+               left: -32px;
+               animation: dot-move-left 1s ease-out forwards;
+            }
+              &:after {
+               @include dot();
+               position: absolute;
+               left: 32px;
+               animation: dot-move-right 1s ease-out forwards;
+            }
+        }
     }
-    strong {
-        font-weight: 700;
+    &_center {
+        @include flex-center;
+        flex-direction: column
+    }
+    h1 {
+        @include font(2.8rem, 600, 2.5rem);
+    }
+    &_class {
+        @include font(1.5rem, 400, 2rem);
+        color: $jumbotronColor;
     }
 }

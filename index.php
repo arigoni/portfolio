@@ -39,9 +39,13 @@
     <!-- Corps de page -->
     <main>
         <section class="jumbotron">
-            <div class="jumbotron_info p-5">
-                <h1>Kevin <strong class="text-light">Arigoni</strong></h1>
-                <p id="word" class="jumbotron_class">- Développeur full stack -</p>
+            <div class="jumbotron_info text-light p-5">
+                <div class="jumbotron_center">
+                    <p class="jumbotron_class">Développeur Full Stack - Webmaster</p>
+                    <h1>Bienvenue, je suis Kevin</h1>
+                    <hr class="separator separator--dots" />
+                </div>
+                <p>Je crée le site web qui vous correspond et m'occupe de son suivi. Passionné et très investi, j’ai le plaisir de vous proposer mes services : création du site internet, design, référencement, rédaction web, webmarketing, ...</p>
             </div>
         </section>
     </main>
