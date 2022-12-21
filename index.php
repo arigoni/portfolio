@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="public/css/index.css">
     <script src="https://kit.fontawesome.com/a62e0cc052.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
     <!-- Référencement / Twitter Card data / Open Graph data - Facebook -->
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.arigoni-kevin.fr">
@@ -46,6 +47,17 @@
                     <hr class="separator separator--dots" />
                 </div>
                 <p>Je crée le site web qui vous correspond et m'occupe de son suivi. Passionné et très investi, j’ai le plaisir de vous proposer mes services : création du site internet, design, référencement, rédaction web, webmarketing, ...</p>
+                <div class="d-flex justify-content-center">
+                    <a href="#" id="about" class="jumbotron-btn">Qui suis-je ?</a>&emsp;
+                    <a href="#" id="projects" class="jumbotron-btn btn2">Mes projets</a>
+                </div>
+            </div>
+        </section>
+        <section class="about py-5">
+            <div class="container">
+                <div class="col-12 text-light">
+                    <h2 class="text-center">Faisons connaissance</h2>
+                </div>
             </div>
         </section>
     </main>

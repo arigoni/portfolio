@@ -48,4 +48,7 @@
         @include font(1.5rem, 400, 2rem);
         color: $jumbotronColor;
     }
+    a {
+        @include font(1rem, 400, 1.25rem);
+    }
 }

@@ -1,0 +1,49 @@
+.jumbotron-btn {
+    position: relative;
+    background: none;
+    color: $color_tertiary;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0.2em solid $color_tertiary;
+    padding: 0.5em 1em;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 10%;
+      background: $bgFirst;
+      height: 0.3em;
+      right: 20%;
+      top: -0.21em;
+      transform: skewX(-45deg);
+      transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 10%;
+      background: $bgFirst;
+      height: 0.3em;
+      left: 20%;
+      bottom: -0.25em;
+      transform: skewX(45deg);
+      transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+    &:hover {
+        color: $color_tertiary;
+      &::before {
+        right: 80%;
+      }
+      &::after {
+        left: 80%;
+      }
+    }
+}
+.btn2 {
+    color: $color_secondary;
+    border: 0.2em solid $color_secondary;
+    &:hover {
+        color: $color_secondary;
+    }
+}
