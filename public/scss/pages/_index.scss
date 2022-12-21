@@ -1,0 +1,16 @@
+// Jumbotron
+.jumbotron {
+    background-image: url(../img/Jumbotron.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+    h1 {
+        @include font(2rem, 600, 2.5rem);
+        color: rgba(255, 255, 255, 0.5);
+    }
+    strong {
+        font-weight: 700;
+    }
+}
