@@ -69,7 +69,60 @@
                 </div>
             </div>
         </section>
-        <section></section>
+        <section class="skill py-5">
+            <div class="container">
+                <div class="col-12">
+                    <h2 class="text-center">Mes Compétences</h2>
+                    <hr class="hr mb-5" style="height:0.3125rem">
+                    <p class="text-center">Elles sont en constantes améliorations car pour moi la joie de ce métier fait que l’on en apprend tous les jours, d’autant plus en étant impliqué, curieux et passionné.</p>
+                    <p>Je suis en mesure d’intervenir à n’importe quel niveau technique de la pile des différentes couches qui constituent une application client/serveur.</p>
+                    <p>De façon plus précise:</p>
+                    <ul>
+                        <li>&ensp;Concevoir, manipuler et interroger des <b>bases de données</b> MongoDB MySQL</li>
+                        <li>&ensp;Concevoir le <b>back-end</b> et les <b>API</b> sous forme de webservices NodeJS PHP</li>
+                        <li>&ensp;Concevoir le <b>front-end</b> et optimiser les <b>assets</b> ReactJS VueJS JavaScript Sass Bootstrap HTML/CSS</li>
+                        <li>&ensp;Concevoir un site avec un <b>CMS</b> et travailler le <b>design</b> Wordpress Woocommerce Prestashop</li>
+                        <li>&ensp;Utilisation de <b>versioning</b> Git Gitkraken Github</li>
+                        <li>&ensp;Gérer un <b>projet</b> et sa <b>timeline</b> avec des méthodes de <b>développement agiles</b> Trello</li>
+                        <li>&ensp;Gérer une <b>prospection commerciale</b> B2B et B2C Zoho Pipe drive</li>
+                        <li>&ensp;Manipulation de nombreux <b>logiciels</b> VSCode OBS Studio Sony Vega Pro Photoshop Sketchup Pro</li>
+                        <li>&ensp;Manipuler les <b>systèmes d'exploitation</b> Windows Linux</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h2 class="text-center">Mes Expériences</h2>
+                    <hr class="hr mb-5" style="height:0.3125rem">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h2 class="text-center">Mes Réalisations</h2>
+                    <hr class="hr mb-5" style="height:0.3125rem">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h2 class="text-center">Témoignages</h2>
+                    <hr class="hr mb-5" style="height:0.3125rem">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h2 class="text-center">Contactez-moi</h2>
+                    <hr class="hr mb-5" style="height:0.3125rem">
+                </div>
+            </div>
+        </section>
     </main>
     <!-- FIN -->
 
