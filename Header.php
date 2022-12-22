@@ -12,6 +12,9 @@
                         <a class="nav-link text-light scroll hvr-underline-from-left" href="https://www.arigoni-kevin.fr/">Accueil</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-light scroll hvr-underline-from-left" id="about" href="#">Présentations</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-light scroll hvr-underline-from-left" id="skill" href="#">Compétences</a>
                     </li>
                     <li class="nav-item">

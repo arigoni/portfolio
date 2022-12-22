@@ -69,24 +69,26 @@
                 </div>
             </div>
         </section>
-        <section class="skill py-5">
+        <section class="skill pb-5">
             <div class="container">
-                <div class="col-12">
-                    <h2 class="text-center">Mes Compétences</h2>
-                    <hr class="hr mb-5" style="height:0.3125rem">
-                    <p class="text-center">Elles sont en constantes améliorations car pour moi la joie de ce métier fait que l’on en apprend tous les jours, d’autant plus en étant impliqué, curieux et passionné.</p>
+                <div class="col-12 skill_bloc p-4">
+                    <div class="d-flex align-items-center flex-column">
+                        <h2>Mes Compétences</h2>
+                        <hr class="hr mt-1" style="height:0.3125rem">
+                        <p class="text-center subtitle mb-5">Elles sont en constantes améliorations car pour moi la joie de ce métier fait que l’on en apprend tous les jours, d’autant plus en étant impliqué, curieux et passionné.</p>
+                    </div>
                     <p>Je suis en mesure d’intervenir à n’importe quel niveau technique de la pile des différentes couches qui constituent une application client/serveur.</p>
                     <p>De façon plus précise:</p>
                     <ul>
-                        <li>&ensp;Concevoir, manipuler et interroger des <b>bases de données</b> MongoDB MySQL</li>
-                        <li>&ensp;Concevoir le <b>back-end</b> et les <b>API</b> sous forme de webservices NodeJS PHP</li>
-                        <li>&ensp;Concevoir le <b>front-end</b> et optimiser les <b>assets</b> ReactJS VueJS JavaScript Sass Bootstrap HTML/CSS</li>
-                        <li>&ensp;Concevoir un site avec un <b>CMS</b> et travailler le <b>design</b> Wordpress Woocommerce Prestashop</li>
-                        <li>&ensp;Utilisation de <b>versioning</b> Git Gitkraken Github</li>
-                        <li>&ensp;Gérer un <b>projet</b> et sa <b>timeline</b> avec des méthodes de <b>développement agiles</b> Trello</li>
-                        <li>&ensp;Gérer une <b>prospection commerciale</b> B2B et B2C Zoho Pipe drive</li>
-                        <li>&ensp;Manipulation de nombreux <b>logiciels</b> VSCode OBS Studio Sony Vega Pro Photoshop Sketchup Pro</li>
-                        <li>&ensp;Manipuler les <b>systèmes d'exploitation</b> Windows Linux</li>
+                        <li>&ensp;Concevoir, manipuler et interroger des <b>bases de données</b> &emsp;<span class="box">MongoDB</span>&ensp; <span class="box">MySQL</span></li>
+                        <li>&ensp;Concevoir le <b>back-end</b> et les <b>API</b> sous forme de webservices &emsp;<span class="box">NodeJS</span>&ensp; <span class="box">PHP</span></li>
+                        <li>&ensp;Concevoir le <b>front-end</b> et optimiser les <b>assets</b> &emsp;<span class="box">ReactJS</span>&ensp; <span class="box">VueJS</span>&ensp; <span class="box">JavaScript</span>&ensp; <span class="box">Sass</span>&ensp; <span class="box">Bootstrap</span>&ensp; <span class="box">HTML/CSS</span></li>
+                        <li>&ensp;Concevoir un site avec un <b>CMS</b> et travailler le <b>design</b> &emsp;<span class="box">Wordpress</span>&ensp; <span class="box">Woocommerce</span>&ensp; <span class="box">Prestashop</span></li>
+                        <li>&ensp;Utilisation de <b>versioning</b> &emsp;<span class="box">Git</span>&ensp; <span class="box">Gitkraken</span>&ensp; <span class="box">Github</span></li>
+                        <li>&ensp;Gérer un <b>projet</b> et sa <b>timeline</b> avec des méthodes de <b>développement agiles</b> &emsp;<span class="box">Trello</span></li>
+                        <li>&ensp;Gérer une <b>prospection commerciale</b> B2B et B2C &emsp;<span class="box">Zoho</span>&ensp; <span class="box">Pipe drive</span></li>
+                        <li>&ensp;Manipulation de nombreux <b>logiciels</b> &emsp;<span class="box">VSCode</span>&ensp; <span class="box">OBS Studio</span>&ensp; <span class="box">Sony Vega Pro</span>&ensp; <span class="box">Photoshop</span>&ensp; <span class="box">Sketchup Pro</span></li>
+                        <li>&ensp;Manipuler les <b>systèmes d'exploitation</b> &emsp;<span class="box">Windows</span>&ensp; <span class="box">Linux</span></li>
                     </ul>
                 </div>
             </div>

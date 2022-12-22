@@ -1,7 +1,25 @@
 .skill {
+    background-color: $bgSecond;
+    &_bloc {
+        background-color: $color_secondary;
+        border-radius: 2rem;
+        .subtitle {
+            width: 35%;
+            @include font(1rem, 400, 1rem);
+            font-style: italic;
+        }
+    }
     ul li::marker {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         content: "\f054";
+    }
+    li {
+        line-height: 2em
+    }
+    .box {
+        background-color: $skill;
+        color: $color_secondary;
+        padding: 0.25rem;
     }
 }
