@@ -49,7 +49,7 @@
                 <p>Je crée le site web qui vous correspond et m'occupe de son suivi. Passionné et très investi, j’ai le plaisir de vous proposer mes services : création du site internet, design, référencement, rédaction web, webmarketing, ...</p>
                 <div class="d-flex justify-content-center">
                     <a href="#" id="about" class="jumbotron-btn scroll">Qui suis-je ?</a>&emsp;
-                    <a href="#" id="projects" class="jumbotron-btn btn2 scroll">Mes projets</a>
+                    <a href="#" id="achievements" class="jumbotron-btn btn2 scroll">Mes projets</a>
                 </div>
             </div>
         </section>
