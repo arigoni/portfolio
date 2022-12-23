@@ -1,0 +1,145 @@
+.achievements {
+    background-color: $bgSecond;
+    .cardWork {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-block: 2rem;
+        gap: 2rem;
+        .card {
+            display: flex;
+            flex-direction: column;
+            width: clamp(20rem, calc(20rem + 2vw), 22rem);
+            overflow: hidden;
+            box-shadow: 0 .1rem 1rem rgba(0,0,0,.1);
+            border-radius: 1em;
+            background: linear-gradient(to right, $color_secondary, #ECE9E6);
+            &__body {
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+            }
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+        .tag {
+            align-self: flex-start;
+            padding: .25em .75em;
+            border-radius: 1em;
+            font-size: .75rem;
+        }
+        .tag + .tag {
+            margin-left: .5em;
+        }
+        .tag-blue {
+            background: #56CCF2;
+            background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+            color: $color_secondary;
+        }
+        .tag-brown {
+            background: #D1913C;
+            background: linear-gradient(to bottom, #FFD194, #D1913C);
+            color: $color_secondary;
+        }
+        .tag-red {
+            background: #cb2d3e;
+            background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+            color: $color_secondary;
+        }
+        .card__body h4 {
+            font-size: 1.5rem;
+            text-transform: capitalize;
+        }
+        .card__footer {
+            display: flex;
+            padding: 1rem;
+            margin-top: auto;
+        }
+        button {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            outline: none;
+            border: 0;
+            vertical-align: middle;
+            text-decoration: none;
+            background: transparent;
+            padding: 0;
+            font-size: inherit;
+            font-family: inherit;
+            &.learn-more {
+                width: 12rem;
+                height: auto;
+                .circle {
+                    @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+                    position: relative;
+                    display: block;
+                    margin: 0;
+                    width: 3rem;
+                    height: 3rem;
+                    background: rgb(0, 0, 0);
+                    border-radius: 1.625rem;
+                    .icon {
+                        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        background: $color_secondary;
+                        &.arrow {
+                            @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+                            left: 0.625rem;
+                            width: 1.125rem;
+                            height: 0.125rem;
+                            background: none;
+                            &::before {
+                                position: absolute;
+                                content: '';
+                                top: -0.25rem;
+                                right: 0.0625rem;
+                                width: 0.625rem;
+                                height: 0.625rem;
+                                border-top: 0.125rem solid $color_secondary;
+                                border-right: 0.125rem solid $color_secondary;
+                                transform: rotate(45deg);
+                            }
+                        }
+                    }
+                }
+                .button-text {
+                    @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    padding: 0.75rem 0;
+                    margin: 0 0 0 1.85rem;
+                    color: rgb(0, 0, 0);
+                    font-weight: 700;
+                    line-height: 1.6;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+            &:hover {
+                .circle {
+                    width: 100%;
+                    .icon {
+                        &.arrow {
+                            background: $color_secondary;
+                            transform: translate(1rem, 0);
+                        }
+                    }
+                }
+                .button-text {
+                    color: $color_secondary;
+                }
+            }
+        }
+    }
+}

@@ -65,3 +65,11 @@
         @include font(2.5rem, 800, 2.25rem);
     }
 }
+// partie testimony
+.testimony {
+    background-image: url("../img/blocB.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

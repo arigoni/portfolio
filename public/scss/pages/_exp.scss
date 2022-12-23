@@ -2,7 +2,16 @@
     background-color: $color_secondary;
     span {
         color: $color_four;
-        font-weight: 600;
+        font-weight: bold;
+    }
+    a {
+        color: $bgSecond;
+        font-weight: bold;
+        &:hover {
+            color: $color_primary;
+            font-weight: bolder;
+            font-style: oblique;
+        }
     }
 }
 

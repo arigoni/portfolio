@@ -53,6 +53,7 @@
                 </div>
             </div>
         </section>
+
         <section class="about py-5">
             <div class="container">
                 <div class="col-12 text-light">
@@ -69,6 +70,7 @@
                 </div>
             </div>
         </section>
+
         <section class="skill pb-5">
             <div class="container">
                 <div class="col-12 skill_bloc p-4">
@@ -93,6 +95,7 @@
                 </div>
             </div>
         </section>
+
         <section class="iam">
             <div class="container">
                 <div class="col-12 text-light text-center">
@@ -101,6 +104,7 @@
                 </div>
             </div>
         </section>
+
         <section class="exp py-5">
             <div class="container">
                 <div class="col-12">
@@ -114,27 +118,38 @@
             </div>
         </section>
 
-        <section>
+        <section class="testimony py-5">
             <div class="container">
                 <div class="col-12">
-                    <h2 class="text-center">Mes Réalisations</h2>
+                    <h2 class="text-center text-light">Témoignages</h2>
                     <hr class="hr mb-5" style="height:0.3125rem">
                 </div>
             </div>
         </section>
-        <section>
+
+        <section class="achievements py-5">
             <div class="container">
                 <div class="col-12">
-                    <h2 class="text-center">Témoignages</h2>
-                    <hr class="hr mb-5" style="height:0.3125rem">
+                    <div class="d-flex align-items-center flex-column text-light">
+                        <h2>Mes Réalisations</h2>
+                        <hr class="hr mt-1" style="height:0.3125rem">
+                        <p class="text-center subtitle mb-5">Une partie des projets sur lesquels j'ai travaillé.</p>
+                    </div>
+                    <?php require("./Portfolio.php"); ?>
                 </div>
             </div>
         </section>
-        <section>
+        
+        <section class="contact py-5">
             <div class="container">
                 <div class="col-12">
-                    <h2 class="text-center">Contactez-moi</h2>
+                    <h2 class="text-center">Disponibilité & Contact</h2>
                     <hr class="hr mb-5" style="height:0.3125rem">
+                    <div class="d-flex justify-content-evenly contact_Dispo">
+                        <div><i class="fa-solid fa-house-user"></i>&emsp;Travaille à distance</div>
+                        <div><i class="fa-regular fa-clock"></i>&emsp;Disponible à plein temps</div>
+                        <div><i class="fa-regular fa-envelope"></i>&emsp;Réponse rapide assurée</div>
+                    </div>
                 </div>
             </div>
         </section>
