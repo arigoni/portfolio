@@ -18,7 +18,7 @@
                         <a class="nav-link text-light scroll hvr-underline-from-left" id="skill" href="#">Compétences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light scroll hvr-underline-from-left" id="experience" href="#">Expériences</a>
+                        <a class="nav-link text-light scroll hvr-underline-from-left" id="exp" href="#">Expériences</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light scroll hvr-underline-from-left" id="work" href="#">Portfolio</a>

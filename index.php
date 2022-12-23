@@ -93,14 +93,27 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="iam">
             <div class="container">
-                <div class="col-12">
-                    <h2 class="text-center">Mes Expériences</h2>
-                    <hr class="hr mb-5" style="height:0.3125rem">
+                <div class="col-12 text-light text-center">
+                    <p class="iam_Txt">Je suis un <span id="word">Développeur Full Stack</span></p>
+                    <p>Tous les projets sont un challenge pour moi. Votre réussite est la mienne !</p>
                 </div>
             </div>
         </section>
+        <section class="exp py-5">
+            <div class="container">
+                <div class="col-12">
+                    <div class="d-flex align-items-center flex-column">
+                        <h2>Mes Expériences</h2>
+                        <hr class="hr mt-1" style="height:0.3125rem">
+                        <p class="text-center subtitle mb-5">Ayant de l’expérience dans de multiples domaines, voici une liste des expérience la plus significtive.</p>
+                    </div>
+                    <?php require("./Exp.php"); ?>
+                </div>
+            </div>
+        </section>
+
         <section>
             <div class="container">
                 <div class="col-12">

@@ -52,3 +52,16 @@
         @include font(1rem, 400, 1.25rem);
     }
 }
+// Partie iam
+.iam {
+    background-image: url("../img/blocA.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    &_Txt {
+        @include font(2.5rem, 800, 2.25rem);
+    }
+}

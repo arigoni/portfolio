@@ -6,7 +6,7 @@ body {
         text-decoration: none;
     }
     .hr {
-        background: $color_tertiary;
+        background: $color_tertiary; 
         width: 5rem;
         opacity: 1;
         margin-left: auto;
@@ -17,5 +17,10 @@ body {
     }
     p {
         @include font(1.2rem, 400, 1.8rem);
+    }
+    .subtitle {
+        width: 35%;
+        @include font(1rem, 400, 1rem);
+        font-style: italic;
     }
 }
