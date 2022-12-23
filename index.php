@@ -44,17 +44,17 @@
                 <div class="jumbotron_center">
                     <p class="jumbotron_class">Développeur Full Stack - Webmaster</p>
                     <h1>Bienvenue, je suis Kevin</h1>
-                    <hr class="separator separator--dots" />
+                    <hr class="separator separator--dots">
                 </div>
                 <p>Je crée le site web qui vous correspond et m'occupe de son suivi. Passionné et très investi, j’ai le plaisir de vous proposer mes services : création du site internet, design, référencement, rédaction web, webmarketing, ...</p>
                 <div class="d-flex justify-content-center">
-                    <a href="#" id="about" class="jumbotron-btn scroll">Qui suis-je ?</a>&emsp;
-                    <a href="#" id="achievements" class="jumbotron-btn btn2 scroll">Mes projets</a>
+                    <a href="#" id="aboutBis" class="jumbotron-btn scroll">Qui suis-je ?</a>&emsp;
+                    <a href="#" id="achievementsBis" class="jumbotron-btn btn2 scroll">Mes projets</a>
                 </div>
             </div>
         </section>
 
-        <section class="about py-5">
+        <section class="about aboutBis py-5">
             <div class="container">
                 <div class="col-12 text-light">
                     <h2 class="text-center">Faisons connaissance</h2>
@@ -64,7 +64,7 @@
                         <div class="col-10 px-4">
                             <p>Hello ! Je m’appelle <b>Kevin Arigoni</b>, <b>développeur full stack</b> en recherche d'emploi, <b>créatif</b> et <b>passionné</b>. Je me suis lancé à 100% dans ce domaine en me documentant sur tous les thèmes possibles, en engrangeant de l’expérience durant mes études, dans mes différentes expériences professionnelles ainsi que durant mon expérience d’<b>entrepreneur</b>.</p>
                             <p><b>100% autonome</b>, <b>à l'écoute</b> et <b>force de proposition</b>, je suis prêt à m'investir pleinement dans votre projet et à m'adapter à vos besoins. Je vous apporte mon expertise pour : la <b>prospection commerciale</b>, l'<b>intégration de maquettes</b>, la <b>création de tous types de projets web</b> : aussi bien un site vitrine, site wordpress, e-commerce ou sur mesure..., mais aussi le <b>rafraîchissement et l'optimisation du référencement SEO</b> d'un site existant.</p>
-                            <p><u><b>Mes hobbies :</b></u> l'informatique et les nouvelles techniques (réalité virtuelle/augmentée, l'impression 3 D, ....), les échecs et le karaté dont je suis ceinture marron 2ème DAN. J'ai réalisé plusieurs compétitions de karaté.</p>
+                            <p><u><b>Mes hobbies :</b></u> l'informatique et les nouvelles techniques (réalité virtuelle/augmentée, l'impression 3D, ....), les échecs et le karaté dont je suis ceinture marron 2ème DAN. J'ai réalisé plusieurs compétitions de karaté.</p>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
         <section class="iam">
             <div class="container">
                 <div class="col-12 text-light text-center">
-                    <p class="iam_Txt">Je suis un <span id="word">Développeur Full Stack</span></p>
+                    <h2 class="iam_Txt">Je suis un <span id="word">Développeur Full Stack</span></h2>
                     <p>Tous les projets sont un challenge pour moi. Votre réussite est la mienne !</p>
                 </div>
             </div>
@@ -127,7 +127,7 @@
             </div>
         </section>
 
-        <section class="achievements py-5">
+        <section class="achievements achievementsBis py-5">
             <div class="container">
                 <div class="col-12">
                     <div class="d-flex align-items-center flex-column text-light">

@@ -124,16 +124,16 @@
         <div class="timeline-content">
             <h5 class="title">Formation Développeur Web</h5>
             <p class="description">
-                J'ai réalisé une formation intensive de 6 mois et 6 projets en <span>développement web</span> chez <a href="https://openclassrooms.com/fr/paths/556-developpeur-web" title="Openclassrooms">Openclassrooms</a>. Vous pouvez consulter les <a href="./public/doc/certificats_formation.zip" title="certificats obtenus">certificats obtenus</a>.<br />
+                J'ai réalisé une formation intensive de 6 mois et 6 projets en <span>développement web</span> chez <a href="https://openclassrooms.com/fr/paths/556-developpeur-web" title="Openclassrooms">Openclassrooms</a>. Vous pouvez consulter les <a href="./public/doc/certificats_formation.zip" title="certificats obtenus">certificats obtenus</a>.<br>
                 <u><b>Compétences développées :</b></u>
             </p>
             <ol>
-                <li><a href="https://arigoni.github.io/KevinArigoni_2_15-07-2021/" title="Reservia">Intégration d'une maquette</a> en site web<br />( <span>HTML5</span> / <span>CSS3</span> / <span>Git</span> )</li>
-                <li><a href="https://arigoni.github.io/KevinArigoni_3_28072021/" title="OhMyFood">Dynamisation d'une page web</a> avec des animations CSS<br />( <span>HTML5</span> / <span>SASS</span> / <span>Bootstrap</span> )</li>
-                <li><a href="https://chouette-agence.go.yj.fr/" title="Chouette Agence">Optimisation du référencement SEO</a> d'un site web existant<br />( <span>HTML5</span> / <span>CSS3</span> / <span>JavaScript</span> )</li>
-                <li><a href="https://github.com/arigoni/-KevinArigoni_5_29092021" title="Orinoco">Création d'un site de e-commerce</a><br />( <span>JavaScript</span> )</li>
-                <li><a href="https://github.com/arigoni/P6_Piiquante" title="Piiquante">Construction d'une API sécurisée</a><br />( <span>Node JS</span> / <span>Express JS</span> / <span>Mongo DB</span> )</li>
-                <li><a href="https://github.com/arigoni/KevinArigoni_7_20-11-2021" title="Groupomania">Création d'un réseau social</a> d’entreprise<br />( <span>Vue JS</span> / <span>Node JS</span> / <span>Express JS</span> / <span>MySQL</span> )</li>
+                <li><a href="https://arigoni.github.io/KevinArigoni_2_15-07-2021/" title="Reservia">Intégration d'une maquette</a> en site web<br>( <span>HTML5</span> / <span>CSS3</span> / <span>Git</span> )</li>
+                <li><a href="https://arigoni.github.io/KevinArigoni_3_28072021/" title="OhMyFood">Dynamisation d'une page web</a> avec des animations CSS<br>( <span>HTML5</span> / <span>SASS</span> / <span>Bootstrap</span> )</li>
+                <li><a href="https://chouette-agence.go.yj.fr/" title="Chouette Agence">Optimisation du référencement SEO</a> d'un site web existant<br>( <span>HTML5</span> / <span>CSS3</span> / <span>JavaScript</span> )</li>
+                <li><a href="https://github.com/arigoni/-KevinArigoni_5_29092021" title="Orinoco">Création d'un site de e-commerce</a><br>( <span>JavaScript</span> )</li>
+                <li><a href="https://github.com/arigoni/P6_Piiquante" title="Piiquante">Construction d'une API sécurisée</a><br>( <span>Node JS</span> / <span>Express JS</span> / <span>Mongo DB</span> )</li>
+                <li><a href="https://github.com/arigoni/KevinArigoni_7_20-11-2021" title="Groupomania">Création d'un réseau social</a> d’entreprise<br>( <span>Vue JS</span> / <span>Node JS</span> / <span>Express JS</span> / <span>MySQL</span> )</li>
             </ol>
         </div>
     </div>
@@ -150,7 +150,7 @@
         </div>
         <div class="timeline-content">
             <h5 class="title">Autoformation</h5>
-            <p class="description">J'ai suivi les cours sur Openclassrooms, Udemy et Tuto.com.<br /><u><b>Compétences développées :</b></u> <span>ReactJS</span>, <span>PHP</span>, <span>MySQL</span>, <span>Wordpress</span>, <span>Trello</span>, <span>Prospection commerciale</span>, <span>Cryptomonnaie</span>, <span>Management d'équipe</span> et <span>Windows</span>.<br />Vous pouvez consulter les <a href="./public/doc/certificats.zip" title="certificats obtenus">certificats obtenus</a>.</p>
+            <p class="description">J'ai suivi les cours sur Openclassrooms, Udemy et Tuto.com.<br><u><b>Compétences développées :</b></u> <span>ReactJS</span>, <span>PHP</span>, <span>MySQL</span>, <span>Wordpress</span>, <span>Trello</span>, <span>Prospection commerciale</span>, <span>Cryptomonnaie</span>, <span>Management d'équipe</span> et <span>Windows</span>.<br>Vous pouvez consulter les <a href="./public/doc/certificats.zip" title="certificats obtenus">certificats obtenus</a>.</p>
         </div>
     </div>
 
@@ -182,7 +182,7 @@
         </div>
         <div class="timeline-content">
             <h5 class="title">Auto entrepreneur</h5>
-            <p class="description">Création et administration du site vitrine sur <span>Wordpress</span> avec <span>Elementor</span> et <span>Yoast SEO</span> entre autres, nommée <a href="https://www.neko3d.com/" title="Neko3D">Neko3D</a>.<br />Réalisation d'objets avec une <span>imprimante 3D</span> dont la <span>lithophanie</span> en utilisant le logiciel <span>Cura</span>. <span>Rédaction d’articles</span>, relations clients, traitement des e-mailing et <span>prospection téléphonique</span> / <span>digitale</span>.</p>
+            <p class="description">Création et administration du site vitrine sur <span>Wordpress</span> avec <span>Elementor</span> et <span>Yoast SEO</span> entre autres, nommée <a href="https://www.neko3d.com/" title="Neko3D">Neko3D</a>.<br>Réalisation d'objets avec une <span>imprimante 3D</span> dont la <span>lithophanie</span> en utilisant le logiciel <span>Cura</span>. <span>Rédaction d’articles</span>, relations clients, traitement des e-mailing et <span>prospection téléphonique</span> / <span>digitale</span>.</p>
         </div>
     </div>
 
