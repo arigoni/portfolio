@@ -1,5 +1,34 @@
-.contact {
+.contactMe {
     &_Dispo {
         @include font(1.5rem, 400, 1.25rem);
+    }
+    &_form {
+        background-color: $bgThree;
+        border-radius: 1rem;
+        .social {
+            @include font(1.2rem, 500, 1.25rem);
+        }
+    }
+    &_SubTitle {
+        color: $color_four;
+        @include font(1.2rem, 500, 1.25rem);
+    }
+    &_Title {
+        @include font(2rem, 800, 2rem);
+        width: 70%;
+        &-bis {
+            color: $color_four;
+            @include font(1.2rem, 700, 1.25rem);
+            & a {
+                color: $color_primary;
+                &:hover {
+                    color: $color_four;
+                }
+            }
+        }
+    }
+    .social_media {
+        font-size: 1.8rem;
+        color: $color_four;
     }
 }

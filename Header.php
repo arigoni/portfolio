@@ -24,7 +24,7 @@
                         <a class="nav-link text-light scroll hvr-underline-from-left" id="achievements" href="#">Réalisations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light scroll hvr-underline-from-left" id="contact" href="#">Contact</a>
+                        <a class="nav-link text-light scroll hvr-underline-from-left" id="contactMe" href="#">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -140,15 +140,53 @@
             </div>
         </section>
         
-        <section class="contact py-5">
+        <section class="contactMe py-5">
             <div class="container">
                 <div class="col-12">
                     <h2 class="text-center">Disponibilité & Contact</h2>
                     <hr class="hr mb-5" style="height:0.3125rem">
-                    <div class="d-flex justify-content-evenly contact_Dispo">
+                    <div class="d-flex justify-content-evenly contactMe_Dispo">
                         <div><i class="fa-solid fa-house-user"></i>&emsp;Travaille à distance</div>
                         <div><i class="fa-regular fa-clock"></i>&emsp;Disponible à plein temps</div>
                         <div><i class="fa-regular fa-envelope"></i>&emsp;Réponse rapide assurée</div>
+                    </div>
+                    <div class="row justify-content-between align-items-center flex-wrap mt-5 contactMe_form p-5">
+                        <div class="col-12 col-xl-6">
+                            <p class="contactMe_SubTitle">Envoyez moi un message</p>
+                            <p class="contactMe_Title">Écrivez-moi quelques mots sur votre projet: </p>
+                            <p class="contactMe_Title-bis pb-1 pt-3"><i class="fa-solid fa-phone"></i> <a href="tel:+33782088698" title="Téléphone">+33 7 82 08 86 98</a></p>
+                            <p class="contactMe_Title-bis pb-1"><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@arigoni-kevin.fr" title="Mail">contact@arigoni-kevin.fr</a></p>
+                            <p class="contactMe_Title-bis"><i class="fa-solid fa-link"></i> <a href="https://www.arigoni-kevin.fr/" title="Site web">https://www.arigoni-kevin.fr</a></p>
+                            <p class="social mt-5">Réseau sociaux</p>
+                            <div>
+                                <a href="https://www.facebook.com/profile.php?id=100050100790571" title="Facebook" class="social_media"><i class="fa-brands fa-facebook"></i></a>&emsp;
+                                <a href="https://github.com/arigoni?tab=repositories" title="Github" class="social_media"><i class="fa fa-github" aria-hidden="true"></i></a>&emsp;
+                                <a href="https://www.linkedin.com/in/kevin-arigoni" title="Linkedin" class="social_media"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <form id="contact" class="row" method="post" action="traitement.php">
+                                <div class="form-group col-lg-4">
+                                    <label class="form-control-label" for="nom">Nom</label>
+                                    <input type="text" class="form-control" id="nom" name="nom">
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <label class="form-control-label" for="email">Email</label>
+                                    <input type="text" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <label class="form-control-label" for="objet">Objet</label>
+                                    <input type="text" class="form-control" id="objet" name="objet">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label class="form-control-label" for="message">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="6"></textarea>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <button class="btn btn-info float-end mt-2" type="submit" name="envoi">Envoyer</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

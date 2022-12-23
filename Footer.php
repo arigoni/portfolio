@@ -16,6 +16,6 @@
 ?>
 <footer class="footer text-light">
     <div class="text-center py-3">
-        <?php auto_copyright();?> | Arigoni Kevin - Développeur web 
+        <?php auto_copyright();?> | Arigoni Kevin - Développeur web full stack 
     </div>
 </footer>
