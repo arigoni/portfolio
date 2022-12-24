@@ -59,9 +59,9 @@
                 <div class="col-12 text-light">
                     <h2 class="text-center">Faisons connaissance</h2>
                     <hr class="hr mb-5" style="height:0.3125rem">
-                    <div class="d-flex align-items-center">
-                        <div class="col-2"><i class="fa-solid fa-code"></i></div>
-                        <div class="col-10 px-4">
+                    <div class="d-flex align-items-center row">
+                        <div class="d-none d-xl-block col-xl-2"><i class="fa-solid fa-code"></i></div>
+                        <div class="col-12 col-xl-10 px-4">
                             <p>Hello ! Je m’appelle <b>Kevin Arigoni</b>, <b>développeur full stack</b> en recherche d'emploi, <b>créatif</b> et <b>passionné</b>. Je me suis lancé à 100% dans ce domaine en me documentant sur tous les thèmes possibles, en engrangeant de l’expérience durant mes études, dans mes différentes expériences professionnelles ainsi que durant mon expérience d’<b>entrepreneur</b>.</p>
                             <p><b>100% autonome</b>, <b>à l'écoute</b> et <b>force de proposition</b>, je suis prêt à m'investir pleinement dans votre projet et à m'adapter à vos besoins. Je vous apporte mon expertise pour : l'<b>intégration de maquettes</b>, la <b>création de tous types de projets web</b> : aussi bien un site vitrine, site wordpress, e-commerce ou sur mesure..., mais aussi le <b>rafraîchissement et l'optimisation du référencement SEO</b> d'un site existant.</p>
                             <p><u><b>Mes hobbies :</b></u> l'informatique et les nouvelles techniques (réalité virtuelle/augmentée, l'impression 3D, ....), les échecs et le karaté dont je suis ceinture marron 2ème DAN. J'ai réalisé plusieurs compétitions de karaté.</p>
