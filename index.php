@@ -63,7 +63,7 @@
                         <div class="col-2"><i class="fa-solid fa-code"></i></div>
                         <div class="col-10 px-4">
                             <p>Hello ! Je m’appelle <b>Kevin Arigoni</b>, <b>développeur full stack</b> en recherche d'emploi, <b>créatif</b> et <b>passionné</b>. Je me suis lancé à 100% dans ce domaine en me documentant sur tous les thèmes possibles, en engrangeant de l’expérience durant mes études, dans mes différentes expériences professionnelles ainsi que durant mon expérience d’<b>entrepreneur</b>.</p>
-                            <p><b>100% autonome</b>, <b>à l'écoute</b> et <b>force de proposition</b>, je suis prêt à m'investir pleinement dans votre projet et à m'adapter à vos besoins. Je vous apporte mon expertise pour : la <b>prospection commerciale</b>, l'<b>intégration de maquettes</b>, la <b>création de tous types de projets web</b> : aussi bien un site vitrine, site wordpress, e-commerce ou sur mesure..., mais aussi le <b>rafraîchissement et l'optimisation du référencement SEO</b> d'un site existant.</p>
+                            <p><b>100% autonome</b>, <b>à l'écoute</b> et <b>force de proposition</b>, je suis prêt à m'investir pleinement dans votre projet et à m'adapter à vos besoins. Je vous apporte mon expertise pour : l'<b>intégration de maquettes</b>, la <b>création de tous types de projets web</b> : aussi bien un site vitrine, site wordpress, e-commerce ou sur mesure..., mais aussi le <b>rafraîchissement et l'optimisation du référencement SEO</b> d'un site existant.</p>
                             <p><u><b>Mes hobbies :</b></u> l'informatique et les nouvelles techniques (réalité virtuelle/augmentée, l'impression 3D, ....), les échecs et le karaté dont je suis ceinture marron 2ème DAN. J'ai réalisé plusieurs compétitions de karaté.</p>
                         </div>
                     </div>
@@ -85,12 +85,12 @@
                         <li>&ensp;Concevoir, manipuler et interroger des <b>bases de données</b> &emsp;<span class="box">MongoDB</span>&ensp; <span class="box">MySQL</span></li>
                         <li>&ensp;Concevoir le <b>back-end</b> et les <b>API</b> sous forme de webservices &emsp;<span class="box">NodeJS</span>&ensp; <span class="box">PHP</span></li>
                         <li>&ensp;Concevoir le <b>front-end</b> et optimiser les <b>assets</b> &emsp;<span class="box">ReactJS</span>&ensp; <span class="box">VueJS</span>&ensp; <span class="box">JavaScript</span>&ensp; <span class="box">Sass</span>&ensp; <span class="box">Bootstrap</span>&ensp; <span class="box">HTML/CSS</span></li>
-                        <li>&ensp;Concevoir un site avec un <b>CMS</b> et travailler le <b>design</b> &emsp;<span class="box">Wordpress</span>&ensp; <span class="box">Woocommerce</span>&ensp; <span class="box">Prestashop</span></li>
-                        <li>&ensp;Utilisation de <b>versioning</b> &emsp;<span class="box">Git</span>&ensp; <span class="box">Gitkraken</span>&ensp; <span class="box">Github</span></li>
+                        <li>&ensp;Concevoir un site à l'aide d'un <b>CMS</b> &emsp;<span class="box">Wordpress</span>&ensp; <span class="box">Woocommerce</span>&ensp; <span class="box">Prestashop</span></li>
+                        <li>&ensp;Utilisation d'outil de <b>versionning</b> &emsp;<span class="box">Git</span>&ensp; <span class="box">Gitkraken</span>&ensp; <span class="box">Github</span></li>
                         <li>&ensp;Gérer un <b>projet</b> et sa <b>timeline</b> avec des méthodes de <b>développement agiles</b> &emsp;<span class="box">Trello</span></li>
-                        <li>&ensp;Gérer une <b>prospection commerciale</b> B2B et B2C &emsp;<span class="box">Zoho</span>&ensp; <span class="box">Pipe drive</span></li>
-                        <li>&ensp;Manipulation de nombreux <b>logiciels</b> &emsp;<span class="box">VSCode</span>&ensp; <span class="box">OBS Studio</span>&ensp; <span class="box">Sony Vega Pro</span>&ensp; <span class="box">Photoshop</span>&ensp; <span class="box">Sketchup Pro</span></li>
-                        <li>&ensp;Manipuler les <b>systèmes d'exploitation</b> &emsp;<span class="box">Windows</span>&ensp; <span class="box">Linux</span></li>
+                        <li>&ensp;Gérer une <b>prospection commerciale</b> &emsp;<span class="box">Zoho</span>&ensp; <span class="box">Pipe drive</span></li>
+                        <li>&ensp;Réaliser des travaux divers avec des <b>logiciels</b> &emsp;<span class="box">VSCode</span>&ensp; <span class="box">OBS Studio</span>&ensp; <span class="box">Sony Vega Pro</span>&ensp; <span class="box">Photoshop</span>&ensp; <span class="box">Sketchup Pro</span></li>
+                        <li>&ensp;Travailler et configurer les <b>systèmes d'exploitation</b> &emsp;<span class="box">Windows</span>&ensp; <span class="box">Linux</span></li>
                     </ul>
                 </div>
             </div>
@@ -99,7 +99,7 @@
         <section class="iam">
             <div class="container">
                 <div class="col-12 text-light text-center">
-                    <h2 class="iam_Txt">Je suis un <span id="word">Développeur Full Stack</span></h2>
+                    <h2 class="iam_Txt">Je suis un <span class="txt-rotate" data-period="2000" data-rotate='[ "Développeur Full Stack.", "Webmaster.", "Intégrateur Web.", "Commercial." ]'></span></h2>
                     <p>Tous les projets sont un challenge pour moi. Votre réussite est la mienne !</p>
                 </div>
             </div>
