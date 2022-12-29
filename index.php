@@ -123,6 +123,12 @@
                 <div class="col-12">
                     <h2 class="text-center text-light">Témoignages</h2>
                     <hr class="hr mb-5" style="height:0.3125rem">
+                    <div class="d-flex justify-content-center flex-wrap text-light">
+                        <div class="rounded-3 p-4 testimonyCard">
+                            <p>Kevin  est un professionnel de grande qualité. Il vous sera difficile de trouver une personne aussi impliquée dans son travail et avec un tel goût des tâches bien réalisées. Son perfectionnisme et sa capacité de réflexion lui font de lui un collaborateur sur qui vous pouvez compter !</p>
+                            <p class="float-end"><a href="https://www.linkedin.com/in/lahssan-zennou-a224a793/" title="Lahssan Zennou"><i><span>Lahssan ZENNOU</span> - Web Consultant</i></a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

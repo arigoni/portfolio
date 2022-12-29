@@ -72,4 +72,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    &Card {
+        width: 34%;
+        background-color: $bgFirst;
+        a {
+            @include font(0.9rem, 400, 1.25rem);
+            color: $color_tertiary;
+            span {
+                color: $color_four;
+                font-weight: bold;
+            }
+        }
+    }
 }
